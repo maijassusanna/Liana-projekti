@@ -12,7 +12,7 @@ body {
 }
 
 
-/* Style the top navigation bar */
+/* Style the top header */
 .header-top {
     background-color: #5F963A;
     padding: 20px 20px;
@@ -30,7 +30,6 @@ body {
     padding: 5px 15px;
     border: none;
     border-radius: 4px;
-
 }
 
 .header-top a:hover {
@@ -52,6 +51,8 @@ body {
     cursor: pointer;
 }
 
+
+/* Style the bottom header */
 .header-bottom {
     display: flex;
     justify-content: flex-start; 
@@ -117,7 +118,6 @@ body {
     transition: .5s;
 }
 
-/* Responsiivisuus pienemmille näytöille */
 @media screen and (max-width: 800px) {
     .header-top {
         flex-direction: row;
@@ -137,14 +137,14 @@ body {
     .header-logo {
         margin-right: 0;
         margin-bottom: 10px;
-        width: 100%; /* Asettaa logon divin leveydeksi koko leveyden */
-        display: flex; /* Käyttää flexboxia keskittämiseen */
-        justify-content: center; /* Keskittää logon */
+        width: 100%; 
+        display: flex; 
+        justify-content: center; 
     }
 
     .header-logo img {
-        display: block; /* Asettaa kuvan lohkoelementiksi */
-        margin: auto; /* Keskittää kuvan automaattisesti */
+        display: block; 
+        margin: auto; 
     }
 
     .nav-links {
@@ -154,20 +154,17 @@ body {
     }
 
     .nav-links a {
-        padding: 5px; /* Lisää tilaa linkkien välille mobiilinäkymässä */
+        padding: 5px; 
     }
 
     .search-container {
         width: 100%;
         margin-top: 10px;
-        display: flex; /* Käyttää flexboxia keskittämiseen */
-        justify-content: center; /* Keskittää hakupalkin */
+        display: flex; 
+        justify-content: center; 
     }
     
 }
-
-
-
 
 
 
@@ -193,7 +190,6 @@ body {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
-    /* Läpinäkyvä musta kerros */
 }
 
 .content h1 {
@@ -223,7 +219,6 @@ body {
     font-size: 16px;
     cursor: pointer;
     z-index: 1;
-
 }
 
 .content button:hover {
@@ -232,7 +227,7 @@ body {
 }
 
 
-/* images row */
+/* style the images row */
 
 .row {
     background-color: #ffffff;
@@ -241,7 +236,6 @@ body {
     margin: auto;
     text-align: center;
     padding-top: 50px;
-
 }
 
 .image-container {
@@ -251,14 +245,12 @@ body {
     overflow: hidden;
     display: inline-block;
     border-radius: 2px;
-
 }
 
 .image-container img {
     width: 350px;
     filter: brightness(70%);
     border-radius: 5px;
-
 }
 
 .layer {
@@ -271,8 +263,6 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-
-
 }
 
 .layer h2 {
@@ -281,6 +271,8 @@ body {
     font-size: clamp(12px, 5vw, 26px);
 }
 
+
+/* style the animation (numbers) */
 .animation {
     background-color: #ffffff;
     display: flex;
@@ -289,14 +281,12 @@ body {
     justify-content: center;
     margin-bottom: 50px;
     text-align: center;
-
 }
 
 .animation i {
     color: #5F963A;
     font-size: 2.5em;
     text-align: left;
-
 }
 
 .text-section {
@@ -307,8 +297,6 @@ body {
     justify-content: center;
     float: left;
 }
-
-
 
 span.num {
     color: #000000;
@@ -321,7 +309,7 @@ span.text {
 
 
 
-/* latest news */
+/* style the latest news */
 
 .latestnews {
     background-color: #eeeeee;
@@ -330,7 +318,6 @@ span.text {
     padding-bottom: 50px;
     padding-left: 40px;
     padding-right: 40px;
-
 }
 
 .latestnews h2 {
@@ -339,10 +326,9 @@ span.text {
     margin-top: 25px;
     margin-bottom: 25px;
     font-size: 28px;
-
 }
 
-/* References */
+/* style the References section*/
 
 .references {
     background-color: #ffffff;
@@ -356,8 +342,8 @@ span.text {
     width: 100%;
     text-align: center;
     height: 60px;
-
 }
+
 .references-title h2 {
     text-align: center;
     font-size: 28px;
@@ -378,7 +364,6 @@ span.text {
     border-radius: 4px;
     text-align: center;
     position: relative;
-
 }
 
 
@@ -403,15 +388,14 @@ span.text {
     color: #000000;
     margin-top: 25px;
     margin-bottom: 40px;
-
 }
 
 .divider {
-    width: 100%; /* Aseta viivan leveys */
-    margin: 0 auto; /* Keskistä viiva */
-    border-top: 1px solid #ccc; /* Määritä viivan tyyli */
-    margin-top: 20px; /* Lisää hieman viivan yli */
-    margin-bottom: 10px; /* Lisää hieman tilaa viivan alle */
+    width: 100%; 
+    margin: 0 auto; 
+    border-top: 1px solid #ccc; 
+    margin-top: 20px; 
+    margin-bottom: 10px; 
     position: absolute;
 }
 
@@ -433,62 +417,59 @@ span.text {
 
 .second-divider {
     border-top: 1px solid #ccc;
-    margin-top: 80px; /* Lisätty marginaali, jotta viiva ei ole liian lähellä kortteja */
-    margin-bottom: 20px; /* Lisätty marginaali, jotta viiva ei ole liian lähellä tilaajakohdetta */
+    margin-top: 80px; 
+    margin-bottom: 20px; 
 }
 
 
-/* subscription */
+/* style the subscription section */
 
 .subscription {
     color: #333;
-    background-color: #ffffff; /* taustan väri */
-    text-align: center; /* keskitetään teksti */
-    padding: 20px 40px 30px 40px; /* ylä-, oikea-, ala- ja vasen-padding */
-    font-family: 'Arial', sans-serif; /* fontti */
+    background-color: #ffffff; 
+    text-align: center; 
+    padding: 20px 40px 30px 40px; 
+    font-family: 'Arial', sans-serif; 
     margin-top: 40px;
 }
 
 .subscription h2 {
-    margin-top: 10px; /* ylämarginaali */
-    margin-bottom: 15px; /* alamarginaali */
-    font-size: 28px; /* fontin koko */
+    margin-top: 10px; 
+    margin-bottom: 15px; 
+    font-size: 28px;
 }
 
 .subscription p {
-    margin-bottom: 23px; /* lisätään tilaa ennen input-kenttää */
+    margin-bottom: 23px;
 }
 
 .subscription input[type="text"] {
-    padding: 10px; /* sisäinen tila */
-    margin-bottom: 20px; /* tilaa ennen nappia */
-    font-size: 16px; /* fontin koko */
-    border: 1px solid #cccccc; /* reunan väri ja koko */
-    border-radius: 4px; /* pyöristetyt kulmat */
-    width: 50%; /* leveys prosentteina */
-    max-width: 300px; /* maksimileveys */
+    padding: 10px; 
+    margin-bottom: 20px; 
+    font-size: 16px; 
+    border: 1px solid #cccccc; 
+    border-radius: 4px; 
+    width: 50%; 
+    max-width: 300px; 
 }
 
 .subscription button {
-    padding: 10px 20px; /* sisäinen tila */
-    font-size: 16px; /* fontin koko */
-    border: none; /* ei reunaa */
-    border-radius: 4px; /* pyöristetyt kulmat */
-    background-color: #5F963A; /* taustan väri */
-    color: white; /* tekstin väri */
-    cursor: pointer; /* kursorin tyyppi hoverin yhteydessä */
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border: none; 
+    border-radius: 4px; 
+    background-color: #5F963A; 
+    color: white;
+    cursor: pointer; 
 }
 
 .subscription button:hover {
-    background-color:#a6e4b1; /* taustan väri kun hiiri on napin päällä */
+    background-color:#a6e4b1; 
     transition: .5s;
-
 }
 
 
-
-
-/* footerin ekaosa liana, company jne tekstit*/
+/* footers first part */
 
 .footer-firstpart {
     width: 100%;
@@ -519,7 +500,6 @@ span.text {
     color: #ffffff;
     line-height: 50px;
     margin-left: 20px;
-
 }
 
 .footer-firstpart ul li a:hover {
@@ -533,9 +513,7 @@ span.text {
 }
 
 
-
-
-/* itse footerin loput tekstit plus iconit*/
+/* footers second part*/
 
 .footer-secondpart {
     background-color: #000000;
@@ -547,11 +525,9 @@ span.text {
     align-items: center;
 }
 
-
 .footer-info {
     display: flex;
     flex-direction: column;
-
 }
 
 .footer-info h5 {
@@ -560,7 +536,6 @@ span.text {
     font-size: 16px;
     margin-bottom: 10px;
 }
-
 
 .footer-info p {
     margin-left: 70px;
@@ -579,9 +554,7 @@ span.text {
     cursor: pointer;
     align-items: center;
     margin-top: 20px;
-    
 }
-
 
 .footerbtn:hover {
     background-color: #a6e4b1;
@@ -596,11 +569,10 @@ span.text {
     gap: 20px;
     color: #5F963A;
     margin-top: 25px;
-
 }
 
 
-/* Muut CSS-määritykset ovat samat kuin aiemmin, mutta lisätään media queryt */
+/* media querys */
 
 @media screen and (max-width: 768px) {
 
@@ -610,42 +582,39 @@ span.text {
     }
   
     .content h1 {
-      font-size: 24px; /* Pienennä otsikon kokoa */
+      font-size: 24px; 
     }
   
     .content button {
-      top: 70%; /* Siirrä nappi hieman alaspäin */
+      top: 70%; 
     }
 
     .animation {
-      flex-direction: column; /* Aseta elementit pystysuoraan */
+      flex-direction: column;
       align-items: center;
       text-align: center;
       margin-bottom: 20px;
     }
   
     .text-section {
-      width: auto; /* Aseta tekstin leveys automaattiseksi */
+      width: auto; 
     }
   
     .latestnews h2 {
-      font-size: 24px; /* Pienennä uutisosion otsikon kokoa */
+      font-size: 24px; 
     }
   
     .references {
-      flex-wrap: wrap; /* Kääri kortit riville */
-      justify-content: center; /* Keskitä kortit vaakasuunnassa */
+      flex-wrap: wrap; 
+      justify-content: center; 
     }
   
-
-
     .footer-firstpart {
         width: 100%;
         text-align: center;
         margin-top: 20px;
         flex-direction: column;
         align-items: center;
-
     }
 
     .footer-firstpart h4,
@@ -653,7 +622,6 @@ span.text {
         margin: 0; 
         float: none; 
         text-align: center;
-
     }
 
     .footer-secondpart {
@@ -673,10 +641,8 @@ span.text {
         text-align: center;
     }
 
-
     .footerbtn {
         margin-top: 10px;
-        
     }
 
     .footerbtn:hover {
@@ -695,7 +661,7 @@ span.text {
 @media screen and (max-width: 400px) {
     .row {
       flex-direction: column;
-      align-items: center; /* Keskitä elementit pystysuunnassa */
+      align-items: center; 
     }
 
     .layer h2 {
@@ -704,12 +670,12 @@ span.text {
     
     .image-container {
       flex-basis: 100%;
-      margin: 10px 0; /* Lisää välimatkaa elementtien välille */
+      margin: 10px 0; 
     }
 
     .content {
       height: auto;
-      padding: 70px 30px; /* Lisää tilaa ylhäältä ja alhaalta */
+      padding: 70px 30px; 
     }
     
     .content h1 {
@@ -723,14 +689,13 @@ span.text {
     }
   
     .footer-firstpart h4 {
-      margin-left: 0; /* Nollaa marginaali vasemmalle */
+      margin-left: 0; 
     }
     
     .footer-firstpart ul {
-      margin-right: 0; /* Nollaa marginaali oikealle */
+      margin-right: 0; 
     }
-  
-    /* Laajenna sivun sisältö koko näytön leveydelle */
+
     .header-top,
     .header-bottom,
     .latestnews,
@@ -738,92 +703,88 @@ span.text {
     .subscription,
     .footer-firstpart,
     .footer-secondpart {
-      max-width: 100vw; /* Aseta maksimileveys koko näytön leveydelle */
-      padding-left: 10px; /* Lisää tilaa vasemmalle reunalle */
-      padding-right: 10px; /* Lisää tilaa oikealle reunalle */
+      max-width: 100vw; 
+      padding-left: 10px; 
+      padding-right: 10px; 
     }
   }
 
 
 
 @media screen and (max-width: 350px) {
-    /* Muuta headerin tyylejä pienemmille näytöille */
+    
     .header-top {
-      padding: 10px 10px; /* Pienennä yläosan paddingia */
-      justify-content: space-between; /* Aseta elementit väliin */
+      padding: 10px 10px; 
+      justify-content: space-between; 
     }
   
     .header-bottom {
-      padding: 10px 10px; /* Pienennä alaosan paddingia */
+      padding: 10px 10px; 
     }
   
     .header-logo img {
-      height: 40px; /* Pienennä logon kokoa */
-  
-
+      height: 40px; 
     }
   
     .nav-links a {
-      padding: 3px 8px; /* Pienennä linkkien paddingia */
+      padding: 3px 8px; 
     }
   
     .search-container {
-      margin-right: 10px; /* Pienennä hakupalkin oikeaa marginaalia */
+      margin-right: 10px; 
     }
-  
-    /* Muuta sisällön ja muiden osioiden tyylejä pienemmille näytöille */
+
     .content {
-      padding: 60px 10px; /* Pienennä sisällön paddingia */
+      padding: 60px 10px; 
     }
   
     .content h1 {
-      font-size: 18px; /* Pienennä otsikon fonttikokoa */
+      font-size: 18px; 
     }
   
     .content button {
-      padding: 5px 13px; /* Pienennä napin paddingia */
-      font-size: 14px; /* Pienennä napin fonttikokoa */
+      padding: 5px 13px; 
+      font-size: 14px; 
     }
 
     .text-section .num {
-      font-size: 25px; /* Pienennä uutisosion numeron fonttikokoa */
+      font-size: 25px; 
     }
   
     .latestnews {
-      padding: 10px; /* Pienennä uutisosion paddingia */
+      padding: 10px; 
     }
   
     .latestnews h2 {
-      font-size: 20px; /* Pienennä uutisosion otsikon fonttikokoa */
+      font-size: 20px; 
     }
   
     .subscription {
-      padding: 20px; /* Pienennä tilaajakohdan paddingia */
+      padding: 20px; 
     }
   
     .subscription h2 {
-      font-size: 24px; /* Pienennä tilaajakohdan otsikon fonttikokoa */
+      font-size: 24px; 
     }
   
     .subscription input[type="text"] {
-      width: 100%; /* Aseta tilaajakohdan inputin leveys koko näytön leveydelle */
-      max-width: none; /* Poista maksimileveys */
+      width: 100%; 
+      max-width: none; 
     }
   
     .subscription button {
-      padding: 10px 15px; /* Pienennä tilaajakohdan napin paddingia */
-      font-size: 14px; /* Pienennä tilaajakohdan napin fonttikokoa */
+      padding: 10px 15px; 
+      font-size: 14px; 
     }
 
     .row {
       flex-direction: column;
       align-items: center;
-
     }
 
     .image-container {
         flex-basis: 100%;
-        margin: 10px 0; /* Lisää välimatkaa elementtien välille */
+        margin: 10px 0; 
       }
 
     .image-container img {
@@ -831,112 +792,109 @@ span.text {
         height: auto;
       }
   
-    /* Muuta footerin tyylejä pienemmille näytöille */
     .footer-firstpart h4 {
-      font-size: 16px; /* Pienennä footerin ensimmäisen osan otsikon fonttikokoa */
-      margin-left: 10px; /* Pienennä footerin ensimmäisen osan vasenta marginaalia */
+      font-size: 16px; 
+      margin-left: 10px; 
     }
   
     .footer-firstpart ul {
-      margin-right: 10px; /* Pienennä footerin ensimmäisen osan oikeaa marginaalia */
+      margin-right: 10px; 
     }
   
     .footer-firstpart ul li a {
-      padding: 5px 10px; /* Pienennä footerin linkkien paddingia */
+      padding: 5px 10px; 
     }
   
     .footer-info h5,
     .footer-info p {
-      margin-left: 10px; /* Pienennä footerin toisen osan tekstin vasenta marginaalia */
+      margin-left: 10px; 
     }
   
     .footerbtn {
-      margin-top: 10px; /* Lisää tilaa footerin napin yläpuolelle */
+      margin-top: 10px;
     }
   
     .socialicons {
-      margin-top: 15px; /* Lisää tilaa sosiaalisten ikonien yläpuolelle */
+      margin-top: 15px; 
     }
   }
   
 
 
 @media screen and (max-width: 280px) {
-    /* Muuta headerin tyylejä pienemmille näytöille */
+  
     .header-top {
-      padding: 10px 10px; /* Pienennä yläosan paddingia */
-      justify-content: space-between; /* Aseta elementit väliin */
+      padding: 10px 10px; 
+      justify-content: space-between; 
     }
   
     .header-bottom {
-      padding: 10px 10px; /* Pienennä alaosan paddingia */
+      padding: 10px 10px; 
     }
   
     .header-logo img {
-      height: 40px; /* Pienennä logon kokoa */
+      height: 40px; 
     }
   
     .nav-links a {
-      padding: 3px 8px; /* Pienennä linkkien paddingia */
+      padding: 3px 8px;
     }
   
     .search-container {
-      margin-right: 10px; /* Pienennä hakupalkin oikeaa marginaalia */
+      margin-right: 10px; 
     }
   
-    /* Muuta sisällön ja muiden osioiden tyylejä pienemmille näytöille */
     .content {
-      padding: 60px 10px; /* Pienennä sisällön paddingia */
+      padding: 60px 10px; 
     }
   
     .content h1 {
-      font-size: 18px; /* Pienennä otsikon fonttikokoa */
+      font-size: 18px; 
     }
   
     .content button {
-      padding: 5px 13px; /* Pienennä napin paddingia */
-      font-size: 14px; /* Pienennä napin fonttikokoa */
+      padding: 5px 13px; 
+      font-size: 14px; 
     }
 
     .text-section .num {
-      font-size: 25px; /* Pienennä uutisosion numeron fonttikokoa */
+      font-size: 25px; 
     }
   
     .latestnews {
-      padding: 10px; /* Pienennä uutisosion paddingia */
+      padding: 10px; 
     }
   
     .latestnews h2 {
-      font-size: 20px; /* Pienennä uutisosion otsikon fonttikokoa */
+      font-size: 20px; 
     }
   
     .subscription {
-      padding: 20px; /* Pienennä tilaajakohdan paddingia */
+      padding: 20px; 
     }
   
     .subscription h2 {
-      font-size: 24px; /* Pienennä tilaajakohdan otsikon fonttikokoa */
+      font-size: 24px; 
     }
   
     .subscription input[type="text"] {
-      width: 100%; /* Aseta tilaajakohdan inputin leveys koko näytön leveydelle */
-      max-width: none; /* Poista maksimileveys */
+      width: 100%; 
+      max-width: none; 
     }
   
     .subscription button {
-      padding: 10px 15px; /* Pienennä tilaajakohdan napin paddingia */
-      font-size: 14px; /* Pienennä tilaajakohdan napin fonttikokoa */
+      padding: 10px 15px; 
+      font-size: 14px; 
     }
 
     .row {
       flex-direction: column;
       align-items: center;
-
     }
 
     .image-container {
         flex-basis: 100%;
-        margin: 10px 0; /* Lisää välimatkaa elementtien välille */
+        margin: 10px 0; 
       }
 
     .image-container img {
@@ -944,31 +902,30 @@ span.text {
         height: auto;
       }
   
-    /* Muuta footerin tyylejä pienemmille näytöille */
     .footer-firstpart h4 {
-      font-size: 16px; /* Pienennä footerin ensimmäisen osan otsikon fonttikokoa */
-      margin-left: 10px; /* Pienennä footerin ensimmäisen osan vasenta marginaalia */
+      font-size: 16px; 
+      margin-left: 10px; 
     }
   
     .footer-firstpart ul {
-      margin-right: 10px; /* Pienennä footerin ensimmäisen osan oikeaa marginaalia */
+      margin-right: 10px; 
     }
   
     .footer-firstpart ul li a {
-      padding: 5px 10px; /* Pienennä footerin linkkien paddingia */
+      padding: 5px 10px; 
     }
   
     .footer-info h5,
     .footer-info p {
-      margin-left: 10px; /* Pienennä footerin toisen osan tekstin vasenta marginaalia */
+      margin-left: 10px; 
     }
   
     .footerbtn {
-      margin-top: 10px; /* Lisää tilaa footerin napin yläpuolelle */
+      margin-top: 10px; 
     }
   
     .socialicons {
-      margin-top: 15px; /* Lisää tilaa sosiaalisten ikonien yläpuolelle */
+      margin-top: 15px; 
     }
   }
   
